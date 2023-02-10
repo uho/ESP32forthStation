@@ -45,7 +45,7 @@ Contributions go to those who made this project possible (Brad Nelson, Fabrizio 
 
 ### Contact
 
-If you have any questions and issues regarding this project please contact me.
+If you have any questions or issues regarding this project please contact me.
 
 Ulrich Hoffmann uho@xlerb.de
 
@@ -56,6 +56,6 @@ Ulrich Hoffmann uho@xlerb.de
 - 2023-02-10 Publication of this repository
 
 - 2022-12-10 [Presentation of ESP32forthStation](doc/So_this_is_Christmas-ESP32forthStation.pdf) 
-at the international Zoom meeting of the [Forth2020 group](https://www.forth2020.org/)</a>.
+at the international Zoom meeting of the [Forth2020 group](https://www.forth2020.org/)</a>. A recording of the talk [So this is Christmas - ESP32forthStation](https://www.youtube.com/watch?v=glMhQdNSmCc) is available at youtube.
 
 
