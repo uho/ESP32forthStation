@@ -11,9 +11,9 @@ Based on the work of several open source projects (see below) it was possible to
 
 The ESP32forthStation hardware uses the
 
-- <a href="http://www.lilygo.cn/prod_view.aspx?TypeId=50063&Id=1083" target="_blank">TTGO VGA32 board</a> by <a href="http://www.lilygo.cn" target="_blank">LillyGo</a>, an ESP32 board with PS/2 Mouse, PS/2 keyboard, VGA video output, audio connectorm an micro SD card slot, some I/O pins as well as a 3.3V serial line. ESP32forthStation uses version V1.4 of that board.
+- [TTGO VGA32 board](http://www.lilygo.cn/prod_view.aspx?TypeId=50063&Id=1083) by [LillyGo](http://www.lilygo.cn), an ESP32 board with PS/2 Mouse, PS/2 keyboard, VGA video output, audio connectorm an micro SD card slot, some I/O pins as well as a 3.3V serial line. ESP32forthStation uses version V1.4 of that board.
 
-- <a href="https://www.thingiverse.com/thing:4675382" target="_blank">TTGO VGA32 Case</a> from thingiverse by <a href="https://www.thingiverse.com/firepower9966/designs" target="_blank">Neil Bowden (firepower9966)</a>  .
+- [TTGO VGA32 Case](https://www.thingiverse.com/thing:4675382) from thingiverse by [Neil Bowden](https://www.thingiverse.com/firepower9966/designs) .
 
 ![ESP32fortStation setup on a table including keyboard and monitor](img/LillyGo_TTGO_VGA32-board-and-case.jpg "")
 
@@ -21,17 +21,19 @@ The ESP32forthStation hardware uses the
 
 ESP32forthStation is based on
 
-- <a href="http://www.fabglib.org/" target="_blank">FABGL library</a> by 
-   <a href="https://github.com/fdivitto" target="_blank">Fabrizio Di Vittorio</a>, an Arduino based library for the ESP32 that contributes keyboard/monitor access and ANSI terminal capablilities to ESP32forthStation. FABGL has a lot of additional features and uses the TTGO VGA32 board (among others) for many other applications worth investigating. See the <a href="http://www.fabglib.org/" target="_blank">FABGL home page</a> for details.
+- [FABGL library](http://www.fabglib.org/) by 
+   [Fabrizio Di Vittorio](https://github.com/fdivitto), an Arduino based library for the ESP32 that contributes keyboard/monitor access and ANSI terminal capablilities to ESP32forthStation. FABGL has a lot of additional features and uses the TTGO VGA32 board (among others) for many other applications worth investigating. See the [FABGL home page](http://www.fabglib.org/) for details.
 
-- <a href="https://esp32forth.appspot.com/ESP32forth.html">ESP32forth</a> by 
-   <a href="https://github.com/flagxor" target="_blank">Brad Nelson</a>, a modern Arduino based inreractive Forth implementation with block and stream file support, networking with embedded Web-Server, access to hardware and ESP32 libraries/device drivers. See the <a href="https://esp32forth.appspot.com/ESP32forth.html">ESP32forth home page</a> for details.
+- [ESP32forth](https://esp32forth.appspot.com/ESP32forth.html) by 
+   [Brad Nelson](https://github.com/flagxor), a modern Arduino based inreractive Forth implementation with block and stream file support, networking with embedded Web-Server, access to hardware and ESP32 libraries/device drivers. See the 
+   [ESP32forth home page](https://esp32forth.appspot.com/ESP32forth.html) for details.
 
-The firmware of ESP32forthStation is a snapshot of ESP32forth augmented with appropriate calls to the FABGL library for I/O. This repostory provides released versions that are updated from time to time. Development takes place in the <a href="https://github.com/uho/ueforth/tree/VGA32">VGA32 branch of my ueforth fork</a> of <a href="https://github.com/flagxor/ueforth">Brad Nelson original ueforth repository</a>.
+The firmware of ESP32forthStation is a snapshot of ESP32forth augmented with appropriate calls to the FABGL library for I/O. This repostory provides released versions that are updated from time to time. Development takes place in the [VGA32 branch of my ueforth fork](https://github.com/uho/ueforth/tree/VGA32) of 
+[Brad Nelson original ueforth repository](https://github.com/flagxor/ueforth).
 
 ### Flashing the firmware
 
-In order flash the ESP32forthStation firmware to the TTG32 Board use the Arduino IDE, select the board in the Arduino Board manager and flash the file [ESP32forth.ino](src/ESP32forth.ino). If in doubt please check the installation instruction on the <a href="https://esp32forth.appspot.com/ESP32forth.html">ESP32forth home page</a>.
+In order flash the ESP32forthStation firmware to the TTG32 Board use the Arduino IDE, select the board in the Arduino Board manager and flash the file [ESP32forth.ino](src/ESP32forth.ino). If in doubt please check the installation instruction on the [ESP32forth home page](https://esp32forth.appspot.com/ESP32forth.html)</a>.
 
 ## Licensing
 
@@ -53,6 +55,6 @@ Ulrich Hoffmann uho@xlerb.de
 
 - 2023-02-10 Publication of this repository
 
-- 2022-12-10 <a href="doc/So_this _is_Christmas-ESP32forthStation.pdf">Presentation of ESP32forthStation</a> at the international Zoom meeting of the <a href="https://www.forth2020.org/">Forth2020 group</a>.
+- 2022-12-10 [Presentation of ESP32forthStation](doc/So_this _is_Christmas-ESP32forthStation.pdf) at the international Zoom meeting of the [Forth2020 group](https://www.forth2020.org/)</a>.
 
 
